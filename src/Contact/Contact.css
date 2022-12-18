@@ -1,0 +1,107 @@
+.Contact-area {
+    /* background-color: #fab2b2; */
+    padding-top: 50px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-area {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.from .row {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.from p{
+    font-size: 25px;
+    color: #ED1858;
+    padding-bottom: 10px;
+}
+.from h2{
+    font-size: 35px;
+    color: #ED1858;
+    padding-bottom: 10px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-box input {
+    width: 400px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border: 1.5px solid gray;
+}
+.input-companyname input{
+    width: 810px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border: 1.5px solid gray;
+}
+.input-message input{
+    height: 50%;
+    width: 810px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border: 1.5px solid gray;
+}
+.text-message textarea{
+    width: 810px;
+    border: 1.5px solid gray;
+    padding: 14px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+
+}
+.input-box input:focus {
+    outline: 1.5px solid #ec1c24;
+}
+.input-companyname input:focus{
+    outline: 1.5px solid #ec1c24;
+}
+textarea:focus{
+    outline: 1.5px solid #ec1c24;
+}
+/* .text-message input:focus{
+    outline: 1.5px solid #ec1c24;
+} */
+.button-area{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.button-area button{
+    padding: 7px 40px;
+    margin-right: 10px;
+    background-color: gray;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.button-area button:hover{
+    background-color: rgb(249, 126, 126);
+}

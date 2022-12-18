@@ -1,0 +1,61 @@
+.about-part{
+  background-color:azure;
+  padding-top: 50px;
+}
+.about-container{
+
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .info{
+    height: 50%;
+    width: 80%;
+    text-align: left;
+    justify-content: center;
+    line-height: 25px;
+    margin-left: 60px;
+    margin-top: 20%;
+  
+  }
+  .info h1{
+    font-size: 30px;
+    font-weight: 700;
+  
+    margin-bottom: 20px;
+  }
+  .info p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+  }
+  .info p strong{
+    color: #f4511e;
+    font-size: 25px;
+  }
+  .btn-two{
+    background-color: #022144;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 6px;
+  
+    transition: 0.3s;
+  }
+  .btn-two:hover {
+    background-color: #f24d1a;
+  }
+  .btn{
+    background-color: #f24d1a;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 6px;
+    transition: 0.3s;
+  }
