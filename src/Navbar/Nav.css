@@ -33,6 +33,7 @@
     font-weight: 600;
     font-size: 20px;
     padding: 10px 15px 10px 15px;
+    margin-bottom: 9px;
     
   }
   .navbar__right li a:hover{
@@ -51,6 +52,8 @@
     -webkit-text-fill-color: transparent;
     font-size: 39px;
     font-weight: 700;
+    align-items: center;
+    margin-bottom: 7px;
 
   }
   /* Extra small devices (phones, 600px and down) */
